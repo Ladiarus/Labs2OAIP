@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Lab8.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  LadiarusSpace.cpp
+  Lab8.vcxproj -> C:\Users\Yaroslav\Documents\Visual Studio 2019\Projects\Labs2\Lab9\Debug\Lab9.exe
