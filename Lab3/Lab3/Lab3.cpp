@@ -63,11 +63,14 @@ public:
     }
 	void pop()
 	{
-		if(_top!=nullptr)
+		if(_top != nullptr)
 		{
 			queueData<T>* prew_top = _top;
 			_top = _top->next_ptr;
-            _top->prew_ptr = nullptr;
+            if (_top != nullptr)
+            {
+                _top->prew_ptr = nullptr;
+            }
 			delete prew_top;
 		}		
 	}

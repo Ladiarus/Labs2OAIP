@@ -47,7 +47,8 @@ public:
 			stackData<T>* prew_top = _top;
 			_top = _top->next_ptr;
 			delete prew_top;
-		}		
+            prew_top = nullptr;
+		}
 	}
     void outStack()
 	{
